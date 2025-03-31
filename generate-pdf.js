@@ -97,7 +97,7 @@ async function generatePDF() {
 
   // Generate PDF with specific settings
   await page.pdf({
-    path: "resume.pdf",
+    path: "Julian_Kaiser_Resume.pdf",
     format: "A4",
     printBackground: true,
     margin: {
